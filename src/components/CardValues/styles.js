@@ -8,9 +8,15 @@ export const CardValuesContainer = styled.div`
   column-gap: 1.75rem;
   row-gap: 1rem;
   grid-auto-flow: dense;
+  margin-top: 40px;
+  
 
-    p {
+  p {
       font-size: 1.5rem; 
-    }
+      
+  }
 
+.price { 
+  text-align: right;
+}
 `;

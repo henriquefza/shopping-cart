@@ -9,8 +9,6 @@ export const CardPaymentContainer = styled.div`
   row-gap: 1rem;
   grid-auto-flow: dense;
 
-  margin-bottom: 40px;
-
     input { 
     
     height: 3.625rem;

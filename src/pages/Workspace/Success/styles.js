@@ -1,6 +1,15 @@
 import styled from "styled-components";
+import SectionTitleContainer from "../../../components/SectionTitle/styles"
 
-export const CardProductsContainer = styled.div`
+export const SuccessContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+`;
+
+export const Payment = styled.div`
   display: flex;
   width: 100%;
   background: ${props => props.theme['gray-100']};
@@ -8,15 +17,10 @@ export const CardProductsContainer = styled.div`
   padding: 1rem;
   gap: 0.5rem;
 
-  > img {
-      align-self: flex-start;
-      width: 4rem;
-      height: 4rem;
-    }
-
   > p {
     color: ${props => props.theme['gray-600']};
     align-self: flex-end;
     font-weight: 700;
   }
+
 `;
